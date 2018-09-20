@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Here we go"
+title: "First post"
 date: 2018-09-20
 ---
 
-Uh oh spagettio
+I MADE A MISTAKE
