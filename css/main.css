@@ -1,43 +1,102 @@
+@keyframes bounce {
+        10%  {
+		translateY(0);
+		transform: scale(1.1,.9)
+	}
+        30%  {
+		translateY(-100px);
+		transform: scale(.9,1.1)
+	}
+        50%  {
+		translateY(0);
+		transform: scale(1.05,.95)
+	}
+        57%  {
+		translateY(-7px);
+		transform: scale(1,1)
+	}
+        100% {
+		transform: scale(1,1)
+	}
+}
+* {
+	color:whitesmoke;
+	text-align:center;
+	font-family:Comic Sans MS;
+	text-shadow:-2px 2px 2px black;
+}
 body {
-    margin: 60px auto;
-    width: 70%;
+	overflow-x:hidden;
+	background:#2f2f2f;
 }
-nav ul, footer ul {
-    font-family:'Sans-Serif', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+p a {
+	color:lightgray;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+#potato {
+	left:30%;
+	top:5%;
+	width:40%;
+	height:90%;
+	z-index:-1;
+	position:absolute;
 }
-a {
+#potato:hover {
+	animation:bounce 1.5s infinite;
+}
+.posts span {
+	border-bottom:thin solid whitesmoke;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Sans-Serif', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+li a:hover:not(.active) {
+    background-color: #111;
 }
-
-ul.posts li {
-    list-style: none;
+.menu {
+	top:0;
+	left:0;
+	width:100%;
+	position:fixed;
+	border-bottom:thin solid #222;
+	box-shadow:2px 2px 5px black;
+}
+.menu li {
+	width:25%;
+	height:100%;
+	background:#333;
+}
+.active {
+    background-color:dodgerblue;
+}
+.cv {
+	top:15%;
+	left:5%;
+	width:90%;
+	height:50%;
+	background:#333;
+	position:absolute;
+}
+@media only screen and (orientation: portrait) {
+	#potato {
+		left:0;
+		width:100%;
+	}
 }
