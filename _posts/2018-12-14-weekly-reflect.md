@@ -5,7 +5,8 @@ date: 2018-12-14
 ---
 
 I finished the first draft of the Pakistani flag, fixing my previous mistakes from last time, such as the thickness of the moon.
-Here it is: ```(put-image(star sSIZE m1 c1)
+Here it is: ```
+(put-image(star sSIZE m1 c1)
           xC yC
           (put-image (ellipse  eWIDTH eHEIGHT m1 c2)
                      xC2 yC2
@@ -32,4 +33,5 @@ Here it is: ```(put-image(star sSIZE m1 c1)
 (define yC4 146)
 (define m1 "solid")
 (define c1 "whitesmoke")
-(define c2 "darkgreen")```
+(define c2 "darkgreen")
+```
