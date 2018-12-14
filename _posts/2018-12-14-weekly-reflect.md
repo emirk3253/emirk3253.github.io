@@ -35,3 +35,4 @@ Here it is: ```
 (define c1 "whitesmoke")
 (define c2 "darkgreen")
 ```
+![Flag Image](/images/flag.png)
