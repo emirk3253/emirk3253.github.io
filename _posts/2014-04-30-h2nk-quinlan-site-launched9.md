@@ -6,7 +6,7 @@ date: 2018-12-21
 
 ## Flag of _Pakistan_ by _Emir Kutun_
 
-## Describe your program
+## I designed the flag of Pakistan. I would expect a 3 because I may have gotten a few minor details wrong, but generally, I got the characteristics right.
 
 <!--- I designed the flag of Pakistan. I would expect a 3 because I may have gotten a few minor details wrong, but generally, I got the characteristics right. -->
 
@@ -17,12 +17,12 @@ date: 2018-12-21
 ![Flag](/images/final-flag.png)
 * * *
 
-## Describe your process.
+## I compared my flag to Pakistan's as accurately as possible.
 
 <!--- I compared my flag to Pakistan's as accurately as possible.-->
 
 
-## Explain your code.
+## This shows my code and some of the definitions that make it what it is. With these definitions, I can completely eliminate the use of code in the main code.
 
 -   (->(shape1 sSIZE m1 c1)
           xC yC
