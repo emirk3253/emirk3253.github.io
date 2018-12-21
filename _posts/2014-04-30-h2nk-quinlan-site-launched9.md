@@ -17,7 +17,7 @@ date: 2018-12-21
 ![Flag](/images/final-flag.png)
 * * *
 
-## I compared my flag to Pakistan's as accurately as possible.
+## My process
 
 <!--- I compared my flag to Pakistan's as accurately as possible.-->
 
@@ -55,8 +55,8 @@ date: 2018-12-21
 
 * * *
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
+-   Most of my code consists of definitions.
+-   These definitions help me eliminate the use of numbers in my main code.
  
 <!--- This code makes it so whenever I type "WIDTH" into code, the program can recognize it as 473. This way, I can save time, because rather than typing "473", I can simply write "WIDTH". -->
 
