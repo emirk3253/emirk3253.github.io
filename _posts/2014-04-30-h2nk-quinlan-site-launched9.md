@@ -40,7 +40,7 @@ date: 2018-12-21
 (define cSIZE 90)
 (define sSIZE 37)
 -   This shows my code and some of the definitions that make it what it is.
--   With these definitions, I can completely eliminate the use of code in the main code.
+-   With these definitions, I can completely eliminate the use of numbers and phrases in the main code.
 
 * * *
 
